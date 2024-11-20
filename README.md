@@ -1,8 +1,8 @@
 ## Terraform project
 #### This project utilizes terraform to set up a server from bare metal
 #### it created 10 resources in total in AWS cloud
-## variable files such as [variables.tf](./variables.tf) and [terraform.tfvars](./terraform.tfvars) were used to make the script dynamic
-## The Public IP of the web server (EC2 instance) and it's instance-id is made available using [outputs.tf](./outputs.tf) for easy access
+#### variable files such as [variables.tf](./variables.tf) and [terraform.tfvars](./terraform.tfvars) were used to make the script dynamic
+#### The Public IP of the web server (EC2 instance) and it's instance-id is made available using [outputs.tf](./outputs.tf) for easy access
 
 **Resources Created**
 1. VPC
